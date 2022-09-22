@@ -77,3 +77,33 @@
         display: none;
     }
 }
+
+/* ===== CSS Footer ===== */
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-address > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-navigation > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-sosmed-title > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-copyright > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
