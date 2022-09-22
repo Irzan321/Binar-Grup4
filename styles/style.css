@@ -1,0 +1,79 @@
+/* ===== CSS Testimonial ===== */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-title > p {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.testimonial-desc > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 20px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial_block_center {
+    background-image: url("../images/testimony_background.png");
+    border-radius: 20px;
+    width: 615px;
+    height: 270px;
+
+    display: flex;
+    justify-content: center;
+    margin: auto 10px;
+}
+
+.testimonial_block_side {
+    background-image: url("../images/testimony_background.png");
+    border-radius: 20px;
+    width: 615px;
+    height: 270px;
+
+    display: flex;
+    justify-content: center;
+    margin: auto 10px;
+}
+
+.testimonial-photo {
+    margin: auto 20px;
+}
+
+.testimonial-content {
+    margin: auto 20px;
+}
+
+.testimonial-message {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.testimonial-arrow {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.testimonial-arrow > button {
+    margin: auto 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .testimonial_block_side {
+        display: none;
+    }
+}
