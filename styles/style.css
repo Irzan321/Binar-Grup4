@@ -112,86 +112,36 @@
 /* ===== CSS Testimonial ===== */
 .testimonial {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
-.testimonial-title > p {
-    font-family: Arial;
-    font-size: 24px;
-    font-weight: bold;
-
-    text-align: center;
-}
-
-.testimonial-desc > p {
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-
-    text-align: center;
-    line-height: 20px;
-}
-
-.testimonial-list {
-    display: flex;
-    justify-content: center;
-}
-
-.testimonial_block_center {
-    background-image: url("../images/testimony_background.png");
-    border-radius: 20px;
-    width: 615px;
-    height: 270px;
-
-    display: flex;
-    justify-content: center;
-    margin: auto 10px;
-}
-
-.testimonial_block_side {
-    background-image: url("../images/testimony_background.png");
-    border-radius: 20px;
-    width: 615px;
-    height: 270px;
-
-    display: flex;
-    justify-content: center;
-    margin: auto 10px;
-}
-
-.testimonial-photo {
-    margin: auto 20px;
-}
-
-.testimonial-content {
-    margin: auto 20px;
-}
-
-.testimonial-message {
+.footer-address > p {
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
 }
 
-.testimonial-arrow {
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
+.footer-navigation > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.testimonial-arrow > button {
-    margin: auto 10px;
+.footer-sosmed-title > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 1100px) {
-    .testimonial_block_side {
-        display: none;
-    }
+.footer-copyright > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* ===== CSS FAQ ===== */
 .faq {
-    position: absolute;
+    position: relative;
     width: 1168px;
     height: 344px;
     left: 136px;
@@ -201,7 +151,9 @@
 }
 
 .faqq {
-    font-size: x-large;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
     width: auto;
 }
 
@@ -213,6 +165,12 @@
     top: 10px;
     background: rgb(255, 255, 255);
     color: black;
+}
+
+.faq2 > h1 {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .list-faq {
@@ -254,4 +212,35 @@
 
 hr {
     background-color: #fafafa;
+}
+
+/* ===== CSS Footer ===== */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.footer-address > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-navigation > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-sosmed-title > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-copyright > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
 }
