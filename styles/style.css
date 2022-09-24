@@ -1,0 +1,46 @@
+/* ===== CSS Why Us ===== */
+.why-us {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.why-us-title > p {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.why-us-desc > p {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.why-us-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 30px;
+}
+
+.why-us-item {
+    width: 268px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.why-us-item-title {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.why-us-item-desc {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
