@@ -1,46 +1,138 @@
-/* ===== CSS Why Us ===== */
+/* ------ Why US ------ */
+
 .why-us {
+    /* Why Us */
+
+    width: 1168px;
+    height: 308px;
+    left: 136px;
+    top: 1132px;
+}
+
+.container-name {
+    /* Why Us? */
+
+    position: absolute;
+    height: 36px;
+    left: 9.44%;
+    right: 58.06%;
+    top: 1132px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    color: #000000;
+}
+
+.container-description {
+    /* Mengapa harus pilih Binar Car Rental? */
+
+    position: absolute;
+    width: 468px;
+    height: 20px;
+    left: 136px;
+    top: 1184px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #000000;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 1168px;
+    height: 196px;
+    left: 136px;
+    top: 1244px;
+}
+
+.card {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
-}
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
 
-.why-us-title > p {
-    font-family: Arial;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.why-us-desc > p {
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.why-us-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    margin-top: 30px;
-}
-
-.why-us-item {
     width: 268px;
-    height: auto;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 20px;
+    height: 196px;
+
+    /* Neutral/02 */
+
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.why-us-item-title {
-    font-family: Arial;
+.icon {
+    width: 32px;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-name {
+    height: 24px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
-    font-weight: bold;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-.why-us-item-desc {
-    font-family: Arial;
+.card-description {
+    width: 220px;
+    height: 60px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
-    font-weight: bold;
+    line-height: 20px;
+    /* or 143% */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
