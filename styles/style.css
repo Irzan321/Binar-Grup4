@@ -109,16 +109,6 @@
     color: white;
 }
 
-.testimonial-desc > p {
-    width: 468px;
-    margin-top: -40px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 20px;
-
-    color: white;
-}
-
 /* ===== CSS Testimonial ===== */
 .testimonial {
     display: flex;
