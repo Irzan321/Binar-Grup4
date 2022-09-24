@@ -200,9 +200,29 @@
 }
 
 /* ===== CSS FAQ ===== */
+.faq {
+    position: absolute;
+    width: 1168px;
+    height: 344px;
+    left: 136px;
+    /* top: 2504px; */
+
+    margin-top: 30px;
+}
+
 .faqq {
     font-size: x-large;
     width: auto;
+}
+
+.faq2 {
+    position: absolute;
+    width: 443px;
+    height: 303px;
+    left: 52px;
+    top: 10px;
+    background: rgb(255, 255, 255);
+    color: black;
 }
 
 .list-faq {
@@ -228,6 +248,14 @@
     background: #ffffff;
     border: 1px solid #000000;
     border-radius: 4px;
+
+    margin-top: -25px;
+}
+
+.faq-item > h3 {
+    margin-left: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .span {
